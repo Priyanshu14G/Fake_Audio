@@ -25,7 +25,24 @@ Design and implement a lightweight audio deepfake detection system that:
 
 ---
 
-## 🗂️ Dataset Format
+# Audio Deepfake Detection using RawNet2
 
-For training and evaluation, your dataset should be organized as:
+This project is a simplified proof-of-concept implementation of RawNet2 for audio deepfake detection, tailored for Momenta's take-home assessment.
+
+## 📁 Folder Structure
+
+- `RawNet2_Audio_Deepfake.ipynb`: Main notebook with model training and evaluation
+- `data/train/bonafide` and `data/train/spoof`: Real and fake training audio
+- `data/test/bonafide` and `data/test/spoof`: Real and fake testing audio
+
+## 🧪 How to Run
+
+1. Clone this repo
+2. Place audio files under `data/` in correct format
+3. Run the Jupyter notebook
+
+```bash
+pip install -r requirements.txt
+jupyter notebook RawNet2_Audio_Deepfake.ipynb
+
 
