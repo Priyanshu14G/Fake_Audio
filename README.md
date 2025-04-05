@@ -1,4 +1,4 @@
-# 🎧 Audio Deepfake Detection - Momenta Take-Home Assessment
+# 🎧 Audio Deepfake Detection using RawNet2
 
 This repository presents a practical solution to detecting AI-generated speech, addressing the growing threat of **audio deepfakes**. Built as part of Momenta's take-home technical assessment, the project explores cutting-edge techniques, implements a working pipeline, and reflects on real-world applicability.
 
@@ -24,10 +24,6 @@ Design and implement a lightweight audio deepfake detection system that:
   - Proven success in ASVspoof 2021 and similar challenges
 
 ---
-
-# Audio Deepfake Detection using RawNet2
-
-This project is a simplified proof-of-concept implementation of RawNet2 for audio deepfake detection, tailored for Momenta's take-home assessment.
 
 ## 📁 Folder Structure
 
